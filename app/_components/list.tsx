@@ -17,8 +17,8 @@ export function HomeList() {
     <>
       <ScrollArea className="h-30 flex flex-col">
         <p className="text-sm text-muted-foreground pb-2">
-          username will be written here. Once username filled, test reload
-          please.
+          Please enter your username in the space provided. Once you have
+          entered your username, please test by reloading the page.
         </p>
         {usernames?.map((username) => (
           <div className="flex" key={username}>
